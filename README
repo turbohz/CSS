@@ -1,5 +1,5 @@
 
-This Symfony 2 bundle provides wrappers for LessPHP compiler and MinCSS utilities
+This Symfony 2 bundle provides wrappers for LessPHP compiler and CSSMin utilities
 
 More info on this two utilities:
 
