@@ -1,1 +1,42 @@
+
 This Symfony 2 bundle provides wrappers for LessPHP compiler and MinCSS utilities
+
+[[ Installation ]] ==============================================================
+
+
+* Copy the CSS folder into /vendor/bundles/
+
+
+* Register the bundles in AppKernel.php
+
+	$bundles = array(
+		...
+		new CSS\Bundle\LessPHPBundle\LessPHPBundle(),
+		new CSS\Bundle\CssMinBundle\CssMinBundle(),
+	);
+
+
+* Register the namespace in autoload.php:
+
+	$loader->registerNamespaces(array(
+		...
+		'CSS' => __DIR__.'/../vendor/bundles',
+	));
+
+* Add the follwing in config.yml:
+	
+	# less php extension
+
+	less_php: ~
+
+	# cssmin extension
+
+	css_min: ~
+
+
+[ Usage ] ==========================================
+
+
+* $this->get('lessc')->compile(string);
+* $this->get('cssmin')->minify(string);
+
