@@ -13,8 +13,8 @@ class Minifier {
 		$this->cssmin = new \CssMin();
 	}
 	
-	public function minify($input) {
+	public function minify( $input, $filters = null, $plugins = null ) {
 		
-		return $this->cssmin->minify($input);
+		return $this->cssmin->minify( $input, $filters, $plugins );
 	}
 }
