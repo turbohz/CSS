@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/163/trunk/source/formatter
+END
+aCssFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/163/trunk/source/formatter/aCssFormatter.php
+END
+CssOtbsFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/163/trunk/source/formatter/CssOtbsFormatter.php
+END
+CssWhitesmithsFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/163/trunk/source/formatter/CssWhitesmithsFormatter.php
+END

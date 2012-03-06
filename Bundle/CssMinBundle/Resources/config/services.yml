@@ -1,0 +1,11 @@
+parameters:
+
+    css_min.minifier.class: CSS\Bundle\CssMinBundle\Minifier
+    
+services:
+  
+    css_min_minifier:
+        class: %css_min.minifier.class%
+        
+    cssmin:
+        alias: css_min_minifier
