@@ -1,6 +1,11 @@
 
 This Symfony 2 bundle provides wrappers for LessPHP compiler and MinCSS utilities
 
+More info on this two utilities:
+
+https://github.com/leafo/lessphp
+http://code.google.com/p/cssmin/
+
 [[ Installation ]] ==============================================================
 
 
